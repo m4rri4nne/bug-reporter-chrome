@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "Bug Recorder",
+  "description": "Grava a tela e baixa o vídeo automaticamente.",
+  "version": "1.1",
+  "permissions": [
+    "desktopCapture",
+    "downloads"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "icon.png"
+  },
+  "background": {
+    "service_worker": "recorder.js"
+  }
+}

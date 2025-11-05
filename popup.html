@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Bug Recorder</title>
+    <style>
+      body {
+        width: 200px;
+        font-family: sans-serif;
+        text-align: center;
+      }
+      button {
+        padding: 8px;
+        margin: 5px;
+        border: none;
+        background: #4a90e2;
+        color: white;
+        border-radius: 6px;
+        cursor: pointer;
+        width: 160px;
+      }
+      button.stop {
+        background: #e24a4a;
+      }
+    </style>
+  </head>
+  <body>
+    <h3>Bug Recorder</h3>
+    <button id="start"> Iniciar Gravação</button>
+    <button id="stop" class="stop" disabled> Parar Gravação</button>
+
+    <script src="popup.js"></script>
+  </body>
+</html>
