@@ -2,13 +2,13 @@
 # 🐞 Bug Reporter for Jira — Chrome Extension  
 <div align='center'>
 
----
 
 [![Chrome](https://img.shields.io/badge/Chrome_Extension-4285F4?logo=google-chrome&logoColor=white)](https://chrome.google.com/webstore) [![Jira](https://img.shields.io/badge/Integrated_with-Jira-0052CC?logo=jira&logoColor=white)](https://www.atlassian.com/software/jira) [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE) [![Made with ❤️](https://img.shields.io/badge/Made_with-❤️-red)](https://github.com/m4rri4nne)
 
----
 
 </div>
+
+---
 
 ## Description 
 
