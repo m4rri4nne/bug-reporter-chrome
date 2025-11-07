@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "Bug reporter Chrome",
+  "version": "1.0.0",
+  "description": "Bug reporter Chrome extension for logging in with GitHub.",
+  "permissions": [
+    "identity",
+    "storage",
+    "tabs"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Login com GitHub"
+  },
+  "host_permissions": [
+    "http://localhost:3000/*"
+  ]
+}
